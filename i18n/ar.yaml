@@ -1,0 +1,157 @@
+## GLOBAL ##
+- id: "global.home"
+  translation: "الرئيسية"
+
+- id: "global.categories"
+  translation: "التصنيفات"
+
+- id: "global.category"
+  translation: "التصنيف"
+
+- id: "global.tags"
+  translation: "الكلمات الدلالية"
+
+- id: "global.tag"
+  translation: "الكلمة الدلالية"
+
+- id: "global.archives"
+  translation: "الأرشيفات"
+
+- id: "global.search"
+  translation: "البحث"
+
+- id: "global.about"
+  translation: "من أنا"
+
+- id: "global.author_picture"
+  translation: "صورة الكاتب"
+
+- id: "global.share_on"
+  translation: "المشاركة عبر %s"
+
+- id: "global.mail"
+  translation: "الإيميل"
+
+- id: "global.rss"
+  translation: "أتوم"
+
+- id: "global.search_category"
+  translation: "البحث في التصنيفات"
+
+- id: "global.search_tag"
+  translation: "البحث في الكلمات الدلالية"
+
+- id: "global.search_date"
+  translation: "تاريخ البحث（YYYY/MM/DD）"
+
+## GLOBAL.POSTS_FOUND ##
+- id: "global.posts_found.zero"
+  translation: "لم يتم العثور على مقالات"
+
+- id: "global.posts_found.one"
+  translation: "تم العثور على مقالة واحدة"
+
+- id: "global.posts_found.other"
+  translation: "تم العثور على {n} مقالة"
+
+## GLOBAL.CATEGORIES_FOUND ##
+- id: "global.categories_found.zero"
+  translation: "لم يتم العثور على تصنيفات"
+
+- id: "global.categories_found.one"
+  translation: "تم العثور على تصنيف واحد"
+
+- id: "global.categories_found.other"
+  translation: "تم العثور على {n} تصنيف"
+
+## GLOBAL.TAGS_FOUND ##
+- id: "global.tags_found.zero"
+  translation: "لم يتم العثور على كلمات دلالية"
+
+- id: "global.tags_found.one"
+  translation: "تم العثور على كلمة دلالية واحدة"
+
+- id: "global.tags_found.other"
+  translation: "تم العثور على {n} كلمة دلالية"
+
+## PAGINATION ##
+- id: "pagination.page"
+  translation: "الصفحة رقم {{ .Paginator.PageNumber }}"
+
+- id: "pagination.of"
+  translation: "مجموع الصفحات: {{ .Paginator.TotalPages }}"
+
+- id: "pagination.newer_posts"
+  translation: "الصفحة السابقة"
+
+- id: "pagination.older_posts"
+  translation: "الصفحة التالية"
+
+- id: "pagination.previous"
+  translation: "السابق"
+
+- id: "pagination.next"
+  translation: "التالي"
+
+## POST ##
+- id: "post.no_title"
+  translation: "بلا عنوان"
+
+- id: "post.categorized_in"
+  translation: "مصنفة في"
+
+- id: "post.tagged_in"
+  translation: "الكلمات الدلالية"
+
+- id: "post.toc"
+  translation: "الفهرس"
+
+- id: "post.read_more"
+  translation: "مواصلة القراءة"
+
+- id: "post.go_to_website"
+  translation: "الذهاب إلى الموقع"
+
+- id: "post.comment_and_share"
+  translation: "التعليقات والمشاركة"
+
+## FOOTER ##
+- id: "footer.all_rights_reserved"
+  translation: "جميع الحقوق محفوظة"
+
+## DATE ##
+- id: "date.month.january"
+  translation: "يناير"
+
+- id: "date.month.february"
+  translation: "فبراير"
+
+- id: "date.month.march"
+  translation: "مارس"
+
+- id: "date.month.april"
+  translation: "أبريل"
+
+- id: "date.month.may"
+  translation: "مايو"
+
+- id: "date.month.june"
+  translation: "يونيو"
+
+- id: "date.month.july"
+  translation: "جوليو"
+
+- id: "date.month.august"
+  translation: "أغسطس"
+
+- id: "date.month.september"
+  translation: "سبتمبر"
+
+- id: "date.month.october"
+  translation: "أكتوبر"
+
+- id: "date.month.november"
+  translation: "نوفبمر"
+
+- id: "date.month.december"
+  translation: "ديسمبر"
