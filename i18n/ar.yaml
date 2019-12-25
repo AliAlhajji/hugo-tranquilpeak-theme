@@ -9,10 +9,10 @@
   translation: "التصنيف"
 
 - id: "global.tags"
-  translation: "الكلمات الدلالية"
+  translation: "المواضيع"
 
 - id: "global.tag"
-  translation: "الكلمة الدلالية"
+  translation: "الموضوع"
 
 - id: "global.archives"
   translation: "الأرشيفات"
@@ -39,7 +39,7 @@
   translation: "البحث في التصنيفات"
 
 - id: "global.search_tag"
-  translation: "البحث في الكلمات الدلالية"
+  translation: "البحث في المواضيع"
 
 - id: "global.search_date"
   translation: "تاريخ البحث（YYYY/MM/DD）"
@@ -66,13 +66,13 @@
 
 ## GLOBAL.TAGS_FOUND ##
 - id: "global.tags_found.zero"
-  translation: "لم يتم العثور على كلمات دلالية"
+  translation: "لم يتم العثور على أية المواضيع"
 
 - id: "global.tags_found.one"
-  translation: "تم العثور على كلمة دلالية واحدة"
+  translation: "تم العثور على موضوع واحد"
 
 - id: "global.tags_found.other"
-  translation: "تم العثور على {n} كلمة دلالية"
+  translation: "تم العثور على {n} مواضيع"
 
 ## PAGINATION ##
 - id: "pagination.page"
@@ -101,7 +101,7 @@
   translation: "مصنفة في"
 
 - id: "post.tagged_in"
-  translation: "الكلمات الدلالية"
+  translation: "مواضيع المقال"
 
 - id: "post.toc"
   translation: "الفهرس"
