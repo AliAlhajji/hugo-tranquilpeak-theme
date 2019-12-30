@@ -3083,6 +3083,7 @@ a.fancybox {
 }
 
 .postShorten .postShorten-thumbnailimg {
+    padding: 10px;
     overflow: hidden
 }
 
@@ -4566,15 +4567,22 @@ figure.highlight.yml .string,
 figure.highlight.yml .type {
     color: #183691
 }
-
 .codeblock.yml .number,
 figure.highlight.yml .number {
     color: #0086b3
 }
 
-
-
 .content-style{
     font-size: larger;
     font-family: 'droid-naskh', Georgia, 'Times New Roman', Times,serif ;
+}
+
+.summary-thumbnail{
+    width: 70%;
+    height: 70%;
+}
+
+.summary-date{
+    color: rgb(131, 131, 131);
+    font-size: 1.11em;
 }

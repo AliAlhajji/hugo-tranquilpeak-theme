@@ -25,13 +25,6 @@
 <article class="postShorten postShorten--thumbnailimg-{{ .Scratch.Get "thumbnailImagePosition" }}" itemscope
   itemType="http://schema.org/BlogPosting">
   <div class="postShorten-wrap">
-    {{ if and (.Scratch.Get "thumbnailImage") (eq (.Scratch.Get "thumbnailImagePosition") "top")}}
-    <a href="{{ .Permalink }}">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" itemprop="image" src="{{ .Scratch.Get "thumbnailImage" }}" />
-      </div>
-    </a>
-    {{ end }}
     <div class="postShorten-header">
       <h1 class="postShorten-title" itemprop="headline">
         <a class="link-unstyled" href="{{ .Permalink }}">
@@ -39,6 +32,13 @@
         </a>
       </h1>
       {{ partial "post/meta" . }}
+      {{ if and (.Scratch.Get "thumbnailImage") (eq (.Scratch.Get "thumbnailImagePosition") "top")}}
+      <a href="{{ .Permalink }}">
+        <div class="postShorten-thumbnailimg">
+          <img class="summary-thumbnail" alt="" itemprop="image" src="{{ .Scratch.Get "thumbnailImage" }}" />
+        </div>
+      </a>
+      {{ end }}
     </div>
     <div class="postShorten-excerpt summary-style" itemprop="articleBody">
       {{ if .Params.Summary }}
@@ -46,8 +46,8 @@
       {{ else }}
       {{ .Summary }}
       {{ end }}
+      <a href="{{ .Permalink }}" class="postShorten-excerpt_link link">{{ i18n "post.read_more" }}</a>
       <p>
-        <a href="{{ .Permalink }}" class="postShorten-excerpt_link link">{{ i18n "post.read_more" }}</a>
         {{ with .Params.readingtime }}
         <span class="postShorten-readingtime">
           {{ printf " - %s min read" . }}
