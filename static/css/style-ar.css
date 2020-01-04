@@ -4575,6 +4575,7 @@ figure.highlight.yml .number {
 .content-style{
     font-size: larger;
     font-family: 'droid-naskh', Georgia, 'Times New Roman', Times,serif ;
+    color: black;
 }
 
 .summary-thumbnail{
@@ -4585,4 +4586,24 @@ figure.highlight.yml .number {
 .summary-date{
     color: rgb(131, 131, 131);
     font-size: 1.11em;
+}
+
+
+.post-img{
+    display: flex;
+    margin-top: 10px;
+}
+.post-img div{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.post-img  img{
+    border-style:dotted ;
+    border-width: thin;
+}
+
+.post-img em{
+    font-size: medium;
 }
