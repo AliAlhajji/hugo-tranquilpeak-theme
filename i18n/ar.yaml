@@ -115,6 +115,9 @@
 - id: "post.comment_and_share"
   translation: "التعليقات والمشاركة"
 
+- id: "post.see_also"
+  translation: "اقرأ المزيد"
+
 ## FOOTER ##
 - id: "footer.all_rights_reserved"
   translation: "جميع الحقوق محفوظة"

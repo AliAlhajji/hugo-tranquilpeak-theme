@@ -39,6 +39,15 @@
           {{ partial "post/disqus.html" . }}
           {{ end }}
           {{ end }}
+          {{ $related := .Site.RegularPages.Related . | first 5 }}
+          {{ with $related }}
+          <h3>{{ i18n "post.see_also" }}:</h3>
+          <ul>
+            {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+          {{ end }}
         </div>
       </article>
       {{ partial "footer.html" . }}
