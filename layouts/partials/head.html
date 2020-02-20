@@ -28,7 +28,11 @@
     {{ partial "head_start.html" . }}
     {{ partial "meta.html" . }}
     {{$siteTitle := .Site.Title}}
-    <title>{{ with .Title }}{{ . }} | {{$siteTitle}}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    {{if .IsHome}}
+    <title>{{.Site.Title}}</title>
+    {{else}}
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{end}}
 
     <link rel="icon" href="{{ with .Site.Params.favicon }}{{ . }}{{ else }}/favicon.png{{ end }}">
     {{ with .OutputFormats.Get "RSS" }}
